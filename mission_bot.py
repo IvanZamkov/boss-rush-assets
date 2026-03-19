@@ -22,10 +22,10 @@ DB_FILE = os.path.join(BASE_DIR, "user_lists.db")
 
 # Миниатюры
 THUMBS = {
-    1: "https://raw.githubusercontent.com/IvanZamkov/boss-rush-assets/main/thumb_1.jpg",
-    2: "https://raw.githubusercontent.com/IvanZamkov/boss-rush-assets/main/thumb_2.jpg",
-    3: "https://raw.githubusercontent.com/IvanZamkov/boss-rush-assets/main/thumb_3.jpg",
-    4: "https://raw.githubusercontent.com/IvanZamkov/boss-rush-assets/main/thumb_4.jpg",
+    1: "https://raw.githubusercontent.com/andreavitaev/boss-rush-assets/refs/heads/main/thumb_1.jpg",
+    2: "https://raw.githubusercontent.com/andreavitaev/boss-rush-assets/refs/heads/main/thumb_2.jpg",
+    3: "https://raw.githubusercontent.com/andreavitaev/boss-rush-assets/refs/heads/main/thumb_3.jpg",
+    4: "https://raw.githubusercontent.com/andreavitaev/boss-rush-assets/refs/heads/main/thumb_4.jpg",
 }
 
 # DB
