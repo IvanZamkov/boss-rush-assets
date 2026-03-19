@@ -209,7 +209,7 @@ def inline_query_handler(inline_query):
                 label_rand, url_rand = random.choice(random_links)
                 markup = InlineKeyboardMarkup()
                 btn_random = InlineKeyboardButton(label_rand, url=url_rand)
-                btn_result = InlineKeyboardButton("Узнать свой результат", switch_inline_query_current_chat="")
+                btn_result = InlineKeyboardButton("Узнать свой результат", switch_inline_query_current_chat=" ")
                 markup.row(btn_random)                
                 markup.row(btn_result)
                 kwargs["reply_markup"] = markup
